@@ -26,6 +26,9 @@ This study seeks to delve deeper into these metrics to uncover patterns and insi
 By analyzing these questions, I hope to shed light on the pivotal role the first serve plays in a tennis match's outcome and potentially provide players and coaches with valuable insights to refine their strategies.
 
 ## Data Source
+The data is taken from Kaggle and is called ['Huge Tennis Database'](https://www.kaggle.com/datasets/guillemservera/tennis). This dataset is a comprehensive collection of ATP tennis rankings, match results, and player statistics. It is derived from the original database created and maintained by Jeff Sackmann, which can be found in the [following GitHub repository](https://github.com/JeffSackmann/tennis_atp).
+
+There were two methods for importing this data - by using SQLite or by using CSV files. I chose to download the CSV files regarding all the ATP matches conducted between 1968 and 2023. Because the data of each year's matches is stored in a separate CSV file, I had to concatenate them into a variable called `combined_df`.
 
 ## Methods
 
