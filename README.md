@@ -5,7 +5,7 @@
 * [Introduction](https://github.com/YoavWeller/Tennis_Analysis#introduction)
 * [Business Problem](https://github.com/YoavWeller/Tennis_Analysis#business-problem)
 * [Data Source](https://github.com/YoavWeller/Tennis_Analysis#data-source)
-* [Methods](https://github.com/YoavWeller/Tennis_Analysis#methods)
+* [Methodology](https://github.com/YoavWeller/Tennis_Analysis#methodology)
 * [Tech Stack](https://github.com/YoavWeller/Tennis_Analysis#tech-stack)
 * [Lessons Learned and Recommendation](https://github.com/YoavWeller/Tennis_Analysis#lessons-learned-and-recommendation)
 * [Limitations and What Could Be Improved](https://github.com/YoavWeller/Tennis_Analysis#limitations-and-what-could-be-improved)
@@ -32,7 +32,19 @@ The data is taken from Kaggle and is called ['Huge Tennis Database'](https://www
 
 There were two methods for importing this data - by using SQLite or by using CSV files. I chose to download the CSV files regarding all the ATP matches conducted between 1968 and 2023. Because the data of each year's matches is stored in a separate CSV file, I had to concatenate them into a variable called `combined_df`.
 
-## Methods
+## Methodology
+1. Data Cleaning & Preprocessing:
+   * Removed all matches that didn't have data about the match stats.
+   * Removed unnecessary columns.
+   * Created derived variables, such as 'Winning Percentage on First Serve', by combining relevant data columns.
+   * Converted the data type of certain columns from float64 to int8/int16 in order to reduce memory usage.
+   * Created several subsets of the original dataset in order to make the visual analysis easier to execute.
+2. Univariate Analysis (provided a preliminary understanding of the general trends within the data):
+   * Calculated the frequencies for key categorical variables like the surface type or the number of matches played in each tournament type.
+   * Calculated mean, median, and standard deviation for key numerical variables like 'First Serve Percentage' and 'Winning First Serve Points Percentage'.
+   * Plotted the frequencies of the categorical variables using bar plots and the distributions of numerical variables using histograms.
+3. Bivariate Analysis:
+   * Used visual methods such as scatter plots and statistical methods such as correlations to identify potential correlations between various variables.
 
 ## Tech Stack
 
