@@ -52,14 +52,12 @@ There were two methods for importing this data - by using SQLite or by using CSV
    * Microsoft PowerPoint - If you desire to open my report in PowerPoint format.
    * PDF reader - If you desire to open my report in PDF format.
 2. Python Libraries:
-   * pandas
-   * numpy
-   * matplotlib
-   * seaborn
-   * os
-   * scipy
+   * General Purpose: `os`
+   * Data Manipulation: `numpy`, `pandas`
+   * Data Visualization: `matplotlib`, `seaborn`
+   * scientific computing: `scipy`
 
-## Lessons Learned and Recommendation
+## Results and Recommendation
 
 ## Limitations and What Could Be Improved
 
