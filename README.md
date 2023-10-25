@@ -6,7 +6,7 @@
 * [Business Problem](https://github.com/YoavWeller/Tennis_Analysis#business-problem)
 * [Data Source](https://github.com/YoavWeller/Tennis_Analysis#data-source)
 * [Methodology](https://github.com/YoavWeller/Tennis_Analysis#methodology)
-* [Tech Stack](https://github.com/YoavWeller/Tennis_Analysis#tech-stack)
+* [Requirements/Installation](https://github.com/YoavWeller/Tennis_Analysis#tech-stack)
 * [Lessons Learned and Recommendation](https://github.com/YoavWeller/Tennis_Analysis#lessons-learned-and-recommendation)
 * [Limitations and What Could Be Improved](https://github.com/YoavWeller/Tennis_Analysis#limitations-and-what-could-be-improved)
 * [Repository Structure](https://github.com/YoavWeller/Tennis_Analysis#repository-structure)
@@ -46,9 +46,18 @@ There were two methods for importing this data - by using SQLite or by using CSV
 3. Bivariate Analysis:
    * Used visual methods such as scatter plots and statistical methods such as correlations to identify potential correlations between various variables.
 
-## Tech Stack
+## Requirements/Installation
+1. Tools:
+   * Anaconda/Google Colab - I wrote the analysis code using Jupyter Notebook. In order to open it, you should use Anaconda/Google Colab (or any other tool that can open Jupyter Notebook).
+   * Microsoft PowerPoint - If you desire to open my report in PowerPoint format.
+   * PDF reader - If you desire to open my report in PDF format.
+2. Python Libraries:
+   * General Purpose: `os`
+   * Data Manipulation: `numpy`, `pandas`
+   * Data Visualization: `matplotlib`, `seaborn`
+   * scientific computing: `scipy`
 
-## Lessons Learned and Recommendation
+## Results and Recommendation
 
 ## Limitations and What Could Be Improved
 
