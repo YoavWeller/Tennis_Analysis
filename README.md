@@ -1,14 +1,15 @@
 # Serving Success: An EDA of First Serve Impact on Tennis Match Outcomes
 ## Authors
 ## Table of Contents
-* [Business problem]()
-* [Data source]()
+* [Business Problem]()
+* [Data Source]()
 * [Methods]()
-* [Tech stack]()
-* [Lessons learned and recommendation]()
-* [Limitation and what can be improved]()
-* [Repository structure]()
+* [Tech Stack]()
+* [Lessons Learned and Recommendation]()
+* [Limitations and What Could Be Improved]()
+* [Repository Structure]()
 * [Run Locally]()
+
 ## Business Problem
 Tennis, a globally renowned sport, is a perfect blend of athleticism, strategy, and skill. Spanning from community courts to grand slam arenas, the game attracts millions of enthusiasts worldwide, both as participants and spectators. While the sport's beauty lies in its intricacies, one element stands out as a critical determinant of a player's success: the serve.
 
@@ -22,3 +23,17 @@ This study seeks to delve deeper into these metrics to uncover patterns and insi
 2. Does a difference exist between winners' and losers' percentages of winning first-serve points?
 
 By analyzing these questions, I hope to shed light on the pivotal role the first serve plays in a tennis match's outcome and potentially provide players and coaches with valuable insights to refine their strategies.
+
+## Data Source
+
+## Methods
+
+## Tech Stack
+
+## Lessons Learned and Recommendation
+
+## Limitations and What Could Be Improved
+
+## Repository Structure
+
+## Run Locally
