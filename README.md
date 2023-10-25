@@ -1,5 +1,6 @@
 # Serving Success: An EDA of First Serve Impact on Tennis Match Outcomes
 ## Authors
+* [Yoav Weller](https://github.com/YoavWeller)
 ## Table of Contents
 * [Business Problem](https://github.com/YoavWeller/Tennis_Analysis#business-problem)
 * [Data Source](https://github.com/YoavWeller/Tennis_Analysis#data-source)
