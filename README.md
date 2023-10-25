@@ -1,14 +1,14 @@
 # Serving Success: An EDA of First Serve Impact on Tennis Match Outcomes
 ## Authors
 ## Table of Contents
-* [Business Problem]()
-* [Data Source]()
-* [Methods]()
-* [Tech Stack]()
-* [Lessons Learned and Recommendation]()
-* [Limitations and What Could Be Improved]()
-* [Repository Structure]()
-* [Run Locally]()
+* [Business Problem](https://github.com/YoavWeller/Tennis_Analysis#business-problem)
+* [Data Source](https://github.com/YoavWeller/Tennis_Analysis#data-source)
+* [Methods](https://github.com/YoavWeller/Tennis_Analysis#methods)
+* [Tech Stack](https://github.com/YoavWeller/Tennis_Analysis#tech-stack)
+* [Lessons Learned and Recommendation](https://github.com/YoavWeller/Tennis_Analysis#lessons-learned-and-recommendation)
+* [Limitations and What Could Be Improved](https://github.com/YoavWeller/Tennis_Analysis#limitations-and-what-could-be-improved)
+* [Repository Structure](https://github.com/YoavWeller/Tennis_Analysis#repository-structure)
+* [Run Locally](https://github.com/YoavWeller/Tennis_Analysis#run-locally)
 
 ## Business Problem
 Tennis, a globally renowned sport, is a perfect blend of athleticism, strategy, and skill. Spanning from community courts to grand slam arenas, the game attracts millions of enthusiasts worldwide, both as participants and spectators. While the sport's beauty lies in its intricacies, one element stands out as a critical determinant of a player's success: the serve.
