@@ -65,7 +65,12 @@ While the winners' median percentage of successful first-serves is 60.98%; the l
 ![First-Serve Accuracy Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/first_serve_accuracy.png)
 
 * **First-Serve Accuracy By Surface Type - Difference Between Winners' And Losers'**:
+
+![First-Serve Accuracy By Surface Type Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/First%20Serve%20In%20Percentage%20By%20Surface.png)
+
 * **First-Serve Accuracy By Tourney Type - Difference Between Winners' And Losers'**:
+
+![First-Serve Accuracy By Tourney Type Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/First%20Serve%20In%20Percentage%20By%20Tourney%20Level.png)
 
 2. **First-Serve Effectiveness (Percentage Of Points Won On A Successful First Serve) - Difference Between Winners' And Losers'**:
 The winners' median percentage of points won on a successful first serve is 76.47%, and the losers' median percentage is 66.00%. This is quite a large difference between the two groups [^1], and it might indicate that winners exploit their first-serve better than losers. While analyzing this variable I noticed 
@@ -73,7 +78,12 @@ The winners' median percentage of points won on a successful first serve is 76.4
 ![First-Serve Effectiveness Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/first_serve_effectiveness.png)
 
 * **First-Serve Accuracy By Surface Type - Difference Between Winners' And Losers'**:
+
+![First-Serve Effectiveness By Surface Type Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/First%20Serve%20Winning%20Percentage%20By%20Surface.png)
+
 * **First-Serve Accuracy By Tourney Type - Difference Between Winners' And Losers'**:
+
+![First-Serve Effectiveness By Surface Type Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/First%20Serve%20Winning%20Percentage%20By%20Tourney%20Level.png)
 
 ### Recommendation
 [^1]: I haven't performed significance tests or calculated effect size on either of the results yet. See the [Limitations and What Could Be Improved](https://github.com/YoavWeller/Tennis_Analysis#limitations-and-what-could-be-improved) section for further explanation.
