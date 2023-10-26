@@ -66,9 +66,30 @@ While the winners' median percentage of successful first-serves is 60.98%; the l
 
 * **First-Serve Accuracy By Surface Type - Difference Between Winners' And Losers'**:
 
+<div align="center">
+
+| Surface Type | Winners' Median Accuracy | Losers' Median Accuracy |
+| ------------ | --------------- | -------------- |
+| Carpet | 58.97% | 57.29% |
+| Clay | 61.74% | 60.00% |
+| Grass | 62.14% | 60.32% |
+| Hard | 60.46% | 58.65% |
+
+</div>
+
 ![First-Serve Accuracy By Surface Type Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/First%20Serve%20In%20Percentage%20By%20Surface.png)
 
 * **First-Serve Accuracy By Tourney Type - Difference Between Winners' And Losers'**:
+
+<div align="center">
+
+| Surface Type | Winners' Median Accuracy | Losers' Median Accuracy |
+| ------------ | --------------- | -------------- |
+| Another | 60.74% | 59.04% |
+| Grand Slam | 61.98% | 60.00% |
+| Masters 1000 | 60.66% | 58.46% |
+
+</div>
 
 ![First-Serve Accuracy By Tourney Type Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/First%20Serve%20In%20Percentage%20By%20Tourney%20Level.png)
 
@@ -77,11 +98,32 @@ The winners' median percentage of points won on a successful first serve is 76.4
 
 ![First-Serve Effectiveness Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/first_serve_effectiveness.png)
 
-* **First-Serve Accuracy By Surface Type - Difference Between Winners' And Losers'**:
+* **First-Serve Effectiveness By Surface Type - Difference Between Winners' And Losers'**:
+
+<div align="center">
+
+| Surface Type | Winners' Median Accuracy | Losers' Median Accuracy |
+| ------------ | --------------- | -------------- |
+| Carpet | 79.17% | 69.23% |
+| Clay | 73.33% | 62.86% |
+| Grass | 79.31% | 69.44% |
+| Hard | 77.42% | 67.06% |
+
+</div>
 
 ![First-Serve Effectiveness By Surface Type Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/First%20Serve%20Winning%20Percentage%20By%20Surface.png)
 
-* **First-Serve Accuracy By Tourney Type - Difference Between Winners' And Losers'**:
+* **First-Serve Effectiveness By Tourney Type - Difference Between Winners' And Losers'**:
+
+<div align="center">
+
+| Surface Type | Winners' Median Accuracy | Losers' Median Accuracy |
+| ------------ | --------------- | -------------- |
+| Another | 76.32% | 65.85% |
+| Grand Slam | 77.00% | 66.67% |
+| Masters 1000 | 76.19% | 65.96% |
+
+</div>
 
 ![First-Serve Effectiveness By Surface Type Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/First%20Serve%20Winning%20Percentage%20By%20Tourney%20Level.png)
 
