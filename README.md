@@ -59,14 +59,24 @@ There were two methods for importing this data - by using SQLite or by using CSV
 
 ## Results and Recommendation
 ### Results
-1. First-Serve Accuracy (Percentage Of Successful First Serves): Difference Between Winners' And Losers' 
-While the winners' median percentage of successful first-serves is 60.98%; the losers' median percentage of successful first-serves is 59.13%. Regardless of the statistical significance of this difference and effect size[^1], I believe it's relatively small. In my opinion, this shows that while the winners tend to be slightly more accurate on the first-serve, we can't surly say this is what makes one win a match.
+1. **First-Serve Accuracy (Percentage Of Successful First Serves) - Difference Between Winners' And Losers'**: 
+While the winners' median percentage of successful first-serves is 60.98%; the losers' median percentage of successful first-serves is 59.13%. Regardless of the statistical significance of this difference and effect size [^1], I believe it's relatively small. In my opinion, this shows that while the winners tend to be slightly more accurate on the first-serve, we can't surely say this is what makes one win a match.
+
 ![First-Serve Accuracy Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/first_serve_accuracy.png)
-2. First-Serve Effectiveness (Percentage Of Points Won On A Successful First Serve): Difference Between Winners' And Losers'
-The winners' median percentage of points won on a successful first serve is 76.47%; and the losers' median percentage is 66.00%. This is quite a large difference between the two groups, and it might indicate that winners' exploit their first-serve better than losers.
+
+* **First-Serve Accuracy By Surface Type - Difference Between Winners' And Losers'**:
+* **First-Serve Accuracy By Tourney Type - Difference Between Winners' And Losers'**:
+
+2. **First-Serve Effectiveness (Percentage Of Points Won On A Successful First Serve) - Difference Between Winners' And Losers'**:
+The winners' median percentage of points won on a successful first serve is 76.47%, and the losers' median percentage is 66.00%. This is quite a large difference between the two groups [^1], and it might indicate that winners exploit their first-serve better than losers. While analyzing this variable I noticed 
+
 ![First-Serve Effectiveness Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/first_serve_effectiveness.png)
 
-[^1] I haven't performed a significance tests or calculated effect size on neither of the results yet. See the [Limitations and What Could Be Improved](https://github.com/YoavWeller/Tennis_Analysis#limitations-and-what-could-be-improved) section for further explanation.
+* **First-Serve Accuracy By Surface Type - Difference Between Winners' And Losers'**:
+* **First-Serve Accuracy By Tourney Type - Difference Between Winners' And Losers'**:
+
+### Recommendation
+[^1]: I haven't performed significance tests or calculated effect size on either of the results yet. See the [Limitations and What Could Be Improved](https://github.com/YoavWeller/Tennis_Analysis#limitations-and-what-could-be-improved) section for further explanation.
 
 ## Limitations and What Could Be Improved
 
