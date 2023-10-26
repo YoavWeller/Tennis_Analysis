@@ -58,6 +58,9 @@ There were two methods for importing this data - by using SQLite or by using CSV
    * scientific computing: `scipy`
 
 ## Results and Recommendation
+### 1. Difference between winners' and losers' first-serve accuracy (percentage of successful first serves)
+While the winners' median percentage of successful first-serves is 60.98%; the losers' median percentage of successful first-serves is 59.13%. Regardless of the statistical significance of this difference, I believe it's relatively small. In my opinion, this shows that while the winners tend to be slightly more accurate on the first-serve, we can't surly say this is what makes one win a match.
+![First Serve Accuracy Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/first_serve_accuracy.png)
 
 ## Limitations and What Could Be Improved
 
