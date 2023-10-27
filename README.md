@@ -7,10 +7,9 @@
 * [Data Source](https://github.com/YoavWeller/Tennis_Analysis#data-source)
 * [Methodology](https://github.com/YoavWeller/Tennis_Analysis#methodology)
 * [Requirements/Installation](https://github.com/YoavWeller/Tennis_Analysis#requirementsinstallation)
-* [Lessons Learned and Recommendation](https://github.com/YoavWeller/Tennis_Analysis#results-and-recommendation)
+* [Results and Recommendation](https://github.com/YoavWeller/Tennis_Analysis#results-and-recommendation)
 * [Limitations and What Could Be Improved](https://github.com/YoavWeller/Tennis_Analysis#limitations-and-what-could-be-improved)
 * [Repository Structure](https://github.com/YoavWeller/Tennis_Analysis#repository-structure)
-* [Run Locally](https://github.com/YoavWeller/Tennis_Analysis#run-locally)
 
 ## Introduction
 Tennis, a globally renowned sport, is a perfect blend of athleticism, strategy, and skill. Spanning from community courts to grand slam arenas, the game attracts millions of enthusiasts worldwide, both as participants and spectators. While the sport's beauty lies in its intricacies, one element stands out as a critical determinant of a player's success: the serve.
@@ -60,7 +59,7 @@ There were two methods for importing this data - by using SQLite or by using CSV
 ## Results and Recommendation
 ### Results
 
-<div class='tableauPlaceholder' id='viz1698413016844' style='position: relative'><noscript><a href='#'><img alt='not_segregated_dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TennisDashboard_16979727707560&#47;not_segregated_dashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='TennisDashboard_16979727707560&#47;not_segregated_dashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TennisDashboard_16979727707560&#47;not_segregated_dashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1698413016844');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1024px';vizElement.style.height='795px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1024px';vizElement.style.height='795px';} else { vizElement.style.width='100%';vizElement.style.height='1027px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+Besides the textual explanation of the results and the corresponding plot for each result, I made an [interactive dashboard](https://public.tableau.com/views/TennisDashboard_16979727707560/not_segregated_dashboard?:language=en-GB&:display_count=n&:origin=viz_share_link) using Tableau Public. In my opinion, it's easier to understand the plots and results in the dashboard.
 
 1. **First-Serve Accuracy (Percentage Of Successful First Serves) - Difference Between Winners' And Losers'**: 
 Winners exhibit a slightly higher median percentage of successful first serves (60.98%) compared to losers (59.13%). While this difference may or may not be statistically significant [^1], it appears to be relatively small. This suggests that a minor advantage in accuracy on the first serve may not be the sole determinant of match outcomes.
@@ -204,4 +203,3 @@ These findings emphasize that while accuracy on the first serve is important, it
 |       first_serve_accuracy.png
 |       first_serve_effectiveness.png   
 ```
-## Run Locally
