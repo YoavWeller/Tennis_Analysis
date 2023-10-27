@@ -141,5 +141,62 @@ These findings emphasize that while accuracy on the first serve is important, it
 ## Limitations and What Could Be Improved
 
 ## Repository Structure
-
+```bash
+|   README.md
+|   tennis_analysis.ipynb
+|   matches_data_dictionary.txt
+|   combined_and_cleaned_df.csv
+|   wins_on_first_serve_melted_df.csv
+|   first_serve_in_melted_df.csv
+|   Tennis Dashboard.twbx
+|   directory_tree.txt
+|   
+---full_matches_data
+|       atp_matches_1997.csv
+|       atp_matches_1998.csv
+|       atp_matches_1999.csv
+|       atp_matches_2000.csv
+|       atp_matches_2001.csv
+|       atp_matches_2002.csv
+|       atp_matches_2003.csv
+|       atp_matches_2004.csv
+|       atp_matches_2005.csv
+|       atp_matches_2006.csv
+|       atp_matches_2007.csv
+|       atp_matches_2008.csv
+|       atp_matches_2009.csv
+|       atp_matches_2010.csv
+|       atp_matches_2011.csv
+|       atp_matches_2012.csv
+|       atp_matches_2013.csv
+|       atp_matches_2014.csv
+|       atp_matches_2015.csv
+|       atp_matches_2016.csv
+|       atp_matches_2017.csv
+|       atp_matches_2018.csv
+|       atp_matches_2019.csv
+|       atp_matches_2020.csv
+|       atp_matches_2021.csv
+|       atp_matches_2022.csv
+|       atp_matches_2023.csv
+|       atp_matches_1991.csv
+|       atp_matches_1992.csv
+|       atp_matches_1993.csv
+|       atp_matches_1994.csv
+|       atp_matches_1995.csv
+|       atp_matches_1996.csv
+|       
+---Archive (unused files)
+|       atp_tennis.csv
+|       tennis_players_data_scarping.ipynb
+|       atp_players.csv
+|       
+---Plots Images
+|       First Serve In Percentage By Surface.png
+|       First Serve Winning Percentage By Surface.png
+|       First Serve In Percentage By Tourney Level.png
+|       First Serve Winning Percentage By Tourney Level.png
+|       first_serve_accuracy.png
+|       first_serve_effectiveness.png   
+```
 ## Run Locally
