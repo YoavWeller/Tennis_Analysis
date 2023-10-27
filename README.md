@@ -58,9 +58,9 @@ There were two methods for importing this data - by using SQLite or by using CSV
 
 ## Results and Recommendation
 ### Results
-
+---
 Besides the textual explanation of the results and the corresponding plot for each result, I made an [interactive dashboard](https://public.tableau.com/views/TennisDashboard_16979727707560/not_segregated_dashboard?:language=en-GB&:display_count=n&:origin=viz_share_link) using Tableau Public. In my opinion, it's easier to understand the plots and results in the dashboard.
-
+---
 1. **First-Serve Accuracy (Percentage Of Successful First Serves) - Difference Between Winners' And Losers'**: 
 Winners exhibit a slightly higher median percentage of successful first serves (60.98%) compared to losers (59.13%). While this difference may or may not be statistically significant [^1], it appears to be relatively small. This suggests that a minor advantage in accuracy on the first serve may not be the sole determinant of match outcomes.
 
