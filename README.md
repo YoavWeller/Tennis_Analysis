@@ -60,7 +60,7 @@ There were two methods for importing this data - by using SQLite or by using CSV
 ## Results and Recommendation
 ### Results
 1. **First-Serve Accuracy (Percentage Of Successful First Serves) - Difference Between Winners' And Losers'**: 
-Winners exhibit a slightly higher median percentage of successful first serves (60.98%) compared to losers (59.13%). While this difference may or may not be statistically significant, it appears to be relatively small. This suggests that a minor advantage in accuracy on the first serve may not be the sole determinant of match outcomes.
+Winners exhibit a slightly higher median percentage of successful first serves (60.98%) compared to losers (59.13%). While this difference may or may not be statistically significant [^1], it appears to be relatively small. This suggests that a minor advantage in accuracy on the first serve may not be the sole determinant of match outcomes.
 
 ![First-Serve Accuracy Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/first_serve_accuracy.png)
 
@@ -96,7 +96,7 @@ Winners exhibit a slightly higher median percentage of successful first serves (
 ![First-Serve Accuracy By Tourney Type Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/First%20Serve%20In%20Percentage%20By%20Tourney%20Level.png)
 
 2. **First-Serve Effectiveness (Percentage Of Points Won On A Successful First Serve) - Difference Between Winners' And Losers'**:
-A more significant disparity emerges when we examine the percentage of points won on a successful first serve. Winners have a median of 76.47%, whereas losers have a median of 66.00%. This substantial difference implies that winners are more adept at leveraging their first serves to secure points. It suggests that the effectiveness of the first serve plays a crucial role in determining match results.
+A more significant disparity emerges when we examine the percentage of points won on a successful first serve. Winners have a median of 76.47%, whereas losers have a median of 66.00%. This substantial difference implies that winners are more adept at leveraging their first serves to secure points [^1]. It suggests that the effectiveness of the first serve plays a crucial role in determining match results.
 
 ![First-Serve Effectiveness Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/first_serve_effectiveness.png)
 
@@ -139,6 +139,8 @@ These findings emphasize that while accuracy on the first serve is important, it
 [^1]: I haven't performed significance tests or calculated effect size on either of the results yet. See the [Limitations and What Could Be Improved](https://github.com/YoavWeller/Tennis_Analysis#limitations-and-what-could-be-improved) section for further explanation.
 
 ## Limitations and What Could Be Improved
+1. Missing Data - while examining the missing data in my dataset, I noticed that most of the matches that didn't have stats were played in a Davis Cup event. Besides removing all the rows with the missing data, I decided to remove all the matches played in a Davis Cup event. I'm not sure this was the right thing to do, and in the future, I'm planning to make a thorough investigation in order to understand why so many matches without stats were played in the Davis Cup.
+2. Not conducting statistical significance tests - as mentioned in the results section, I didn't do statistical significance tests - because of my insufficient knowledge. I'm currently retaking a statistical inference course, and after finishing it I will add the statistical significance tests.
 
 ## Repository Structure
 ```bash
