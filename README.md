@@ -59,12 +59,15 @@ There were two methods for importing this data - by using SQLite or by using CSV
 ## Results and Recommendation
 ### Results
 ---
-Besides the textual explanation of the results and the corresponding plot for each result, I made an [interactive dashboard](https://public.tableau.com/views/TennisDashboard_16979727707560/not_segregated_dashboard?:language=en-GB&:display_count=n&:origin=viz_share_link) using Tableau Public. In my opinion, it's easier to understand the plots and results in the dashboard.
+Besides the textual explanation of the results and the corresponding plot for each result, I made an [interactive dashboard](https://public.tableau.com/views/FirstServeAnalysis/Story1?:language=en-GB&:display_count=n&:origin=viz_share_link) using Tableau Public. In my opinion, it's easier to understand the plots and results in the dashboard.
 ---
+
+---
+
 1. **First-Serve Accuracy (Percentage Of Successful First Serves) - Difference Between Winners' And Losers'**: 
 Winners exhibit a slightly higher median percentage of successful first serves (60.98%) compared to losers (59.13%). While this difference may or may not be statistically significant [^1], it appears to be relatively small. This suggests that a minor advantage in accuracy on the first serve may not be the sole determinant of match outcomes.
 
-![First-Serve Accuracy Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/first_serve_accuracy.png)
+![First-Serve Bar Accuracy Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/barplots/first_serve_accuracy.png)
 
 * **First-Serve Accuracy By Surface Type - Difference Between Winners' And Losers'**:
   * On carpet and grass surfaces, winners demonstrate notably higher first-serve accuracy compared to losers, indicating their ability to consistently place their serves within the desired areas. 
@@ -80,7 +83,7 @@ Winners exhibit a slightly higher median percentage of successful first serves (
 
 </div>
 
-![First-Serve Accuracy By Surface Type Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/First%20Serve%20In%20Percentage%20By%20Surface.png)
+![First-Serve Accuracy By Surface Type Bar Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/barplots/first_serve_accuracy_by_surface.png)
 
 * **First-Serve Accuracy By Tourney Type - Difference Between Winners' And Losers'**:
   * Across all tournament levels, winners generally maintain higher first-serve accuracy than losers, with the Grand Slam tournaments showing the most significant difference.
@@ -95,12 +98,12 @@ Winners exhibit a slightly higher median percentage of successful first serves (
 
 </div>
 
-![First-Serve Accuracy By Tourney Type Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/First%20Serve%20In%20Percentage%20By%20Tourney%20Level.png)
+![First-Serve Accuracy By Tourney Type Bar Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/barplots/first_serve_accuracy_by_tourney_level.png)
 
 2. **First-Serve Effectiveness (Percentage Of Points Won On A Successful First Serve) - Difference Between Winners' And Losers'**:
 A more significant disparity emerges when we examine the percentage of points won on a successful first serve. Winners have a median of 76.47%, whereas losers have a median of 66.00%. This substantial difference implies that winners are more adept at leveraging their first serves to secure points [^1]. It suggests that the effectiveness of the first serve plays a crucial role in determining match results.
 
-![First-Serve Effectiveness Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/first_serve_effectiveness.png)
+![First-Serve Effectiveness Bar Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/barplots/first_serve_effectiveness.png)
 
 * **First-Serve Effectiveness By Surface Type - Difference Between Winners' And Losers'**:
   * When it comes to first-serve effectiveness, the differences are generally smaller across all surface types, indicating that the ability to win points on successful first serves is influenced by multiple factors, including opponent skill and court conditions.
@@ -115,7 +118,7 @@ A more significant disparity emerges when we examine the percentage of points wo
 
 </div>
 
-![First-Serve Effectiveness By Surface Type Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/First%20Serve%20Winning%20Percentage%20By%20Surface.png)
+![First-Serve Effectiveness By Surface Type Bar Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/barplots/first_serve_effectiveness_by_surface.png)
 
 * **First-Serve Effectiveness By Tourney Type - Difference Between Winners' And Losers'**:
   * First-serve effectiveness, however, exhibits a more substantial gap between winners and losers, emphasizing the critical role of effectively winning points on successful first serves.
@@ -130,7 +133,7 @@ A more significant disparity emerges when we examine the percentage of points wo
 
 </div>
 
-![First-Serve Effectiveness By Surface Type Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/First%20Serve%20Winning%20Percentage%20By%20Tourney%20Level.png)
+![First-Serve Effectiveness By Tourney Type Bar Plot](https://github.com/YoavWeller/Tennis_Analysis/blob/main/Plots%20Images/barplots/first_serve_effectiveness_by_tourney.png)
 
 ### Recommendation
 These findings emphasize that while accuracy on the first serve is important, it is the ability to capitalize on it that sets winners apart from losers. Effectiveness in winning points on the first serve appears to be a more influential factor in achieving victory in tennis matches. Therefore, I believe several useful insights could be implied while training:
